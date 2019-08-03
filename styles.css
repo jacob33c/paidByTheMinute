@@ -36,7 +36,7 @@ h1{
   margin-left: 5%;
   font-size: 4rem;
   font-family: 'Oleo Script Swash Caps';
-  color: #4F345A;
+  color: #5D4E6D;
 }
 
 
@@ -83,7 +83,8 @@ h1{
 }
 
 .myButton{
-  margin-left: 45%; auto;
+  margin-left: 45%;
+  
 }
 
 .header{

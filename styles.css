@@ -1,10 +1,20 @@
+/* IDEA: the html targets */
 body{
   background: #11998e;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
 }
+a{
+  text-decoration: none;
+  color: white;
+}
+h1{
+  margin-left: 5%;
+  font-size: 4rem;
+  font-family: 'Oleo Script Swash Caps';
+}
+
+/* IDEA: this will srtyle the clock rectangle in the middle */
 .clock{
   font-family: 'Lato', sans-serif;
   color: #a1dd70;
@@ -35,28 +45,18 @@ background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, F
     transition: all .4s ease-in-out;
 }
 
+/* IDEA: this is the div the clock is in */
 .box{
   margin: 15% auto;
   padding: 3% ;
 }
 
-#money{
-
-  padding: 1%;
-
-}
-a{
-  text-decoration: none;
-  color: white;
+/* IDEA: this centers the form above the clock */
+.header{
+  font-size: 3rem;
+  text-align: center;
 }
 
-
-h1{
-  margin-left: 5%;
-  font-size: 4rem;
-  font-family: 'Oleo Script Swash Caps';
-
-}
 
 
 /* IDEA: button stuff */
@@ -103,15 +103,11 @@ h1{
 
 .myButton{
   margin-left: 45%;
-
 }
 
-.header{
-  font-size: 3rem;
-
-  text-align: center;
+#money{
+  padding: 1%;
 }
-
 
 /* IDEA: this will make sure the money amount never
 leaves the box area */

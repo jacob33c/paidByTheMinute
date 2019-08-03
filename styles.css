@@ -18,7 +18,6 @@ body{
 }
 
 .box{
-  position: relative;
   margin: 30% auto;
   padding: 3% ;
 }
@@ -74,11 +73,12 @@ body{
   margin-left: 45%; auto;
 }
 
-#rate{
-  position: absolute;
-  margin-left: 35%;
-  margin-top: -3%;
+.header{
+  font-size: 3rem;
+
+  text-align: center;
 }
+
 
 /* IDEA: this will make sure the money amount never
 leaves the box area */

@@ -18,12 +18,25 @@ body{
 }
 
 .box{
-  margin: 30% auto;
+  margin: 15% auto;
   padding: 3% ;
 }
 
 #money{
   padding: 1%;
+
+}
+a{
+  text-decoration: none;
+
+}
+
+
+h1{
+  margin-left: 5%;
+  font-size: 4rem;
+  font-family: 'Oleo Script Swash Caps';
+  color: #4F345A;
 }
 
 

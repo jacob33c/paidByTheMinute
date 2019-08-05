@@ -5,7 +5,11 @@
   <meta charset="utf-8">
   <link rel="shortcut icon" href="images/favicon.ico">
 
+  <!-- IDEA: this is the bootstrap cdn -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- IDEA: this is the css style sheet -->
   <link rel="stylesheet" href="styles.css">
+  <!-- IDEA: this is the google font downloads -->
   <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
 
@@ -18,14 +22,15 @@
 
 <body>
   <div class="box">
-    <div class="header">
+    <div class="header col-6-sm">
       <input type="number" id="rate" name="rate" placeholder="Hourly rate">
     </div>
 
     <div class="clock btn-grad">
       <span id="money">$00.00</span>
+      <button  class="myButton btn btn-success btn-lg">Start</button>
+
     </div>
-  <a  class="myButton">Start</a>
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="app.js" charset="utf-8"></script>

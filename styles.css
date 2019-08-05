@@ -8,6 +8,10 @@ a{
   text-decoration: none;
   color: white;
 }
+a:hover{
+  text-decoration: none;
+  color: white;
+}
 h1{
   margin-left: 5%;
   font-size: 4rem;
@@ -17,32 +21,18 @@ h1{
 /* IDEA: this will srtyle the clock rectangle in the middle */
 .clock{
   font-family: 'Lato', sans-serif;
-  color: #a1dd70;
+  color: white;
   margin: 3% auto;
   margin-top: 0;
   width: 50%;
   text-align: center;
   height: 100px;
   padding: 4% 3%;
-  font-size: 5rem;
+  font-size: 7rem;
   border-radius: 2%;
   font-weight: 800;
-  background-image: linear-gradient( 135deg, #FFDB01 10%, #0E197D 100%);
-  /* border-style: outset; */
-}
-.btn-grad {
-  background-image: linear-gradient(to right, #79CBCA 0%, #77A1D3 51%, #79CBCA 100%);
-}
-.btn-grad:hover {
-  background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA 51%, #77A1D3 100%);
 
-}
-.btn-grad:hover {
-    background-position: 100% 0;
-    moz-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
+  /* border-style: outset; */
 }
 
 /* IDEA: this is the div the clock is in */
@@ -57,52 +47,14 @@ h1{
   text-align: center;
 }
 
+.hidden{
+  display: none;
+}
 
-
-/* IDEA: button stuff  i didnt write this*/
-.myButton {
-	-moz-box-shadow: 0px 10px 14px -7px #3e7327;
-	-webkit-box-shadow: 0px 10px 14px -7px #3e7327;
-	box-shadow: 0px 10px 14px -7px #3e7327;
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #77b55a), color-stop(1, #72b352));
-	background:-moz-linear-gradient(top, #77b55a 5%, #72b352 100%);
-	background:-webkit-linear-gradient(top, #77b55a 5%, #72b352 100%);
-	background:-o-linear-gradient(top, #77b55a 5%, #72b352 100%);
-	background:-ms-linear-gradient(top, #77b55a 5%, #72b352 100%);
-	background:linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#77b55a', endColorstr='#72b352',GradientType=0);
-	background-color:#77b55a;
-	-moz-border-radius:42px;
-	-webkit-border-radius:42px;
-	border-radius:42px;
-	border:1px solid #4b8f29;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:28px;
-	font-weight:bold;
-	padding:6px 27px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #5b8a3c;
-}
-.myButton:hover {
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #72b352), color-stop(1, #77b55a));
-	background:-moz-linear-gradient(top, #72b352 5%, #77b55a 100%);
-	background:-webkit-linear-gradient(top, #72b352 5%, #77b55a 100%);
-	background:-o-linear-gradient(top, #72b352 5%, #77b55a 100%);
-	background:-ms-linear-gradient(top, #72b352 5%, #77b55a 100%);
-	background:linear-gradient(to bottom, #72b352 5%, #77b55a 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#72b352', endColorstr='#77b55a',GradientType=0);
-	background-color:#72b352;
-}
-.myButton:active {
-	position:relative;
-	top:1px;
-}
 
 .myButton{
-  margin-left: 45%;
+  padding: 10% 60%;
+  margin-right: 50px;
 }
 
 #money{
@@ -113,12 +65,12 @@ h1{
 leaves the box area */
 @media  (max-width: 631px){
   .clock{
-    font-size: 4.5rem;
+    font-size: 5.5rem;
   }
 }
 
 @media  (max-width: 575px){
   .clock{
-    font-size: 3.5rem;
+    font-size: 5em;
   }
 }

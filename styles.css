@@ -53,8 +53,10 @@ h1{
 
 
 .myButton{
-  padding: 5% 50%;
-  margin-left: -3%;
+  font-weight: 500;
+  padding: 1% 51%;
+  margin-left: -20%;
+  font-size: 4rem;
 }
 
 #money{

@@ -30,6 +30,9 @@ function stop(){
   $(".myButton").html("Start");
   myVar = clearInterval(myVar);
   form.classList.remove("hidden");
+  $(".myButton").removeClass("btn-danger");
+  $(".myButton").addClass("btn-success");
+
 }
 
 
@@ -46,7 +49,10 @@ function start(){
   //// IDEA: main func that increments the money every second and
   //updates that on the screen for the userS
   myVar  = setInterval(function() {
-      $(".myButton").html("stop");
+      $(".myButton").html("Stop");
+
+      $(".myButton").addClass("btn-danger");
+      $(".myButton").removeClass("btn-success");
       money += increment;
       var n = money.toFixed(2);
       document.getElementById("money").innerHTML = "$" + n;
